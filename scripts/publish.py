@@ -82,7 +82,6 @@ def main():
         print(f"-> {it['id']} ({it['type']})")
         if DRY:
             continue
-        it["attempts"] = it.get("attempts", 0) + 1
         try:
             it["media_id"] = publish_item(it)
             it["status"] = "published"
@@ -91,9 +90,14 @@ def main():
             done += 1
         except Exception as e:  # noqa: BLE001
             it["error"] = str(e)[:500]
-            if it["attempts"] >= MAX_ATTEMPTS:
-                it["status"] = "failed"
-            print("ошибка:", it["error"])
+            if '"code": 190' in it["error"]:
+                # проблема с токеном, а не с постом: попытку не считаем, ждём новый токен
+                print("ТОКЕН НЕДЕЙСТВИТЕЛЕН, обновите секрет IG_TOKEN:", it["error"])
+            else:
+                it["attempts"] = it.get("attempts", 0) + 1
+                if it["attempts"] >= MAX_ATTEMPTS:
+                    it["status"] = "failed"
+                print("ошибка:", it["error"])
         break  # не больше одной публикации за запуск
     if not DRY:
         with open(QUEUE, "w", encoding="utf-8") as f:

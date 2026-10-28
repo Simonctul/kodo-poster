@@ -2,6 +2,9 @@ name: publish
 on:
   schedule:
     - cron: "*/30 * * * *"
+  push:
+    paths:
+      - "queue/posts.json"
   workflow_dispatch:
 permissions:
   contents: write
