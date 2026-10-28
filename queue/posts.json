@@ -16,7 +16,9 @@
       "media/victoria_8.jpg",
       "media/victoria_9.jpg"
     ],
-    "caption": "Victoria — сайт для салона красоты в Сочи ✨\n\nСделал с нуля: структуру и тексты, нежный сиреневый дизайн, каталог услуг и прайс по мастерам, портфолио работ с фильтрами, онлайн-запись и ответы на вопросы. Одинаково удобно с компьютера и с телефона.\n\n🔗 victoria-beauty.ru\n\nНужен такой же сайт для вашего бизнеса? Напишите в Telegram: t.me/S_1_mon\n\n#сайтдлясалонакрасоты #сайтназаказ #вебдизайн #созданиесайтов #салонкрасоты #сочи #адлер #кейс #лендинг"
+    "caption": "Victoria — сайт для салона красоты в Сочи ✨\n\nСделал с нуля: структуру и тексты, нежный сиреневый дизайн, каталог услуг и прайс по мастерам, портфолио работ с фильтрами, онлайн-запись и ответы на вопросы. Одинаково удобно с компьютера и с телефона.\n\n🔗 victoria-beauty.ru\n\nНужен такой же сайт для вашего бизнеса? Напишите в Telegram: t.me/S_1_mon\n\n#сайтдлясалонакрасоты #сайтназаказ #вебдизайн #созданиесайтов #салонкрасоты #сочи #адлер #кейс #лендинг",
+    "attempts": 1,
+    "error": "{\"message\": \"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\", \"type\": \"OAuthException\", \"code\": 190, \"error_subcode\": 460, \"fbtrace_id\": \"AX7S2o5vEafk_PF9iG1USS9\"}"
   },
   {
     "id": "price-carousel",
