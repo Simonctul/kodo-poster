@@ -1,5 +1,24 @@
 [
   {
+    "id": "victoria-case-v2",
+    "type": "carousel",
+    "when": "2026-10-29T19:00:00+03:00",
+    "approved": false,
+    "status": "scheduled",
+    "images": [
+      "media/victoria_1.jpg",
+      "media/victoria_2.jpg",
+      "media/victoria_3.jpg",
+      "media/victoria_4.jpg",
+      "media/victoria_5.jpg",
+      "media/victoria_6.jpg",
+      "media/victoria_7.jpg",
+      "media/victoria_8.jpg",
+      "media/victoria_9.jpg"
+    ],
+    "caption": "Кейс: сайт для салона красоты Victoria (Сочи, Адлер) ✨\n\nСделал сайт с нуля: структура и тексты, дизайн в нежной сиреневой палитре, каталог услуг и прайс, мастера, портфолио с фильтрами, онлайн-запись и ответы на вопросы. Одинаково удобно с компьютера и с телефона.\n\nСайт: victoria-beauty.ru\n\nНужен такой же? Напишите в Telegram: t.me/S_1_mon\n\n#сайтдлясалонакрасоты #сайтназаказ #вебдизайн #лендинг #созданиесайтов #салонкрасоты #сочи #адлер #кейс"
+  },
+  {
     "id": "price-carousel",
     "type": "carousel",
     "when": "2026-10-29T12:00:00+03:00",
