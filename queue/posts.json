@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "price-carousel",
+    "type": "carousel",
+    "when": "2026-10-29T12:00:00+03:00",
+    "approved": false,
+    "status": "scheduled",
+    "images": [
+      "media/price_1.jpg",
+      "media/price_2.jpg",
+      "media/price_3.jpg",
+      "media/price_4.jpg"
+    ],
+    "caption": "Сколько стоит сайт? 💰\n\nТри пакета: Базовый 3 000 ₽, Стандарт 6 000 ₽, Бизнес 10 000 ₽. Внутри слайдов, что входит в каждый и от чего зависит цена.\n\nХотите точную оценку? Напишите в Telegram: t.me/S_1_mon\n\n#сайтназаказ #лендинг #созданиесайтов #сайтдлябизнеса #визиткасайт #вебдизайн #сочи #telegramбот"
+  },
+  {
+    "id": "site-vs-bot-carousel",
+    "type": "carousel",
+    "when": "2026-10-31T12:00:00+03:00",
+    "approved": false,
+    "status": "scheduled",
+    "images": [
+      "media/botvssite_1.jpg",
+      "media/botvssite_2.jpg",
+      "media/botvssite_3.jpg",
+      "media/botvssite_4.jpg"
+    ],
+    "caption": "Сайт или Telegram-бот? 🤔\n\nКоротко: сайт приводит клиентов, бот принимает заявки. Листайте, когда нужен каждый.\n\nНе уверены, что подойдёт вам? Напишите: t.me/S_1_mon\n\n#сайтназаказ #telegramбот #чатбот #созданиесайтов #сайтдлябизнеса #автоматизация #вебразработка #сочи"
+  }
+]
