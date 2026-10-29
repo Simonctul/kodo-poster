@@ -3,8 +3,8 @@
     "id": "victoria-case-v2",
     "type": "carousel",
     "when": "2026-10-28T19:07:06.058607+00:00",
-    "approved": true,
-    "status": "scheduled",
+    "approved": false,
+    "status": "published-manually",
     "images": [
       "media/victoria_1.jpg",
       "media/victoria_2.jpg",
