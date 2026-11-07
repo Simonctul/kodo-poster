@@ -56,7 +56,7 @@
     "when": "2026-10-31T12:00:00+03:00",
     "approved": true,
     "status": "scheduled",
-    "attempts": 1,
+    "attempts": 0,
     "error": "{\"message\": \"Fatal\", \"type\": \"OAuthException\", \"code\": -1, \"error_subcode\": 2207085, \"is_transient\": false, \"error_user_title\": \"Общая внутренняя ошибка\", \"error_user_msg\": \"Произошла внутренняя ошибка сервера. Повторите попытку позже.\", \"fbtrace_id\": \"Aax2UYztK4gooJUQxxX4Y08\"}"
   }
 ]

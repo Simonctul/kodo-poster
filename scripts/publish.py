@@ -35,6 +35,7 @@ def call(method, endpoint, **params):
 def wait_ready(container_id, tries=40):
     for _ in range(tries):
         st = call("GET", container_id, fields="status_code,status")
+        print("status:", st, flush=True)
         code = st.get("status_code")
         if code == "FINISHED":
             return
@@ -65,13 +66,16 @@ def publish_item(it):
             r = requests.post(f"https://rupload.facebook.com/ig-api-upload/v21.0/{c['id']}",
                               headers={"Authorization": f"OAuth {TOKEN}", "offset": "0",
                                        "file_size": str(size)}, data=fh, timeout=600)
+        print("rupload:", r.status_code, r.text[:200], flush=True)
         if r.status_code >= 400 or not r.json().get("success", False):
             raise RuntimeError("rupload: " + r.text[:300])
     elif kind == "story":
         c = call("POST", f"{IG_ID}/media", media_type="STORIES", image_url=url(it["images"][0]))
     else:
         raise RuntimeError(f"unknown type {kind}")
+    print("контейнер создан", c["id"], flush=True)
     wait_ready(c["id"])
+    print("контейнер готов", flush=True)
     res = call("POST", f"{IG_ID}/media_publish", creation_id=c["id"])
     return res["id"]
 
