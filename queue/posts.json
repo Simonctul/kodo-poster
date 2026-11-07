@@ -55,7 +55,7 @@
     "caption": "Кодор — сайт для бренда питьевой воды из Абхазии 💧\n\nСделал с нуля: каталог из 5 категорий, адаптивная версия для телефона и компьютера, видеофон на главной, переключатель языков и заказ через WhatsApp.\n\n🔗 kodor-water.com\n\nНужен такой же сайт для вашего бизнеса? Напишите в Telegram: t.me/S_1_mon\n\n#сайтназаказ #созданиесайтов #вебдизайн #разработкасайтов #сайтдлябизнеса #wordpress #кейс #абхазия #питьеваявода",
     "when": "2026-10-31T12:00:00+03:00",
     "approved": false,
-    "status": "scheduled",
+    "status": "published-manually",
     "attempts": 0,
     "error": "{\"message\": \"Fatal\", \"type\": \"OAuthException\", \"code\": -1, \"error_subcode\": 2207085, \"is_transient\": false, \"error_user_title\": \"Общая внутренняя ошибка\", \"error_user_msg\": \"Произошла внутренняя ошибка сервера. Повторите попытку позже.\", \"fbtrace_id\": \"ANLwQJ7HLy7-xZWbS5BVgNm\"}"
   }
