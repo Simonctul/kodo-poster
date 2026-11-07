@@ -57,8 +57,16 @@ def publish_item(it):
             kids.append(k["id"])
         c = call("POST", f"{IG_ID}/media", media_type="CAROUSEL", children=",".join(kids), caption=caption)
     elif kind == "reel":
-        c = call("POST", f"{IG_ID}/media", media_type="REELS", video_url=url(it["video"]),
+        c = call("POST", f"{IG_ID}/media", media_type="REELS", upload_type="resumable",
                  caption=caption, share_to_feed="true")
+        path = it["video"].lstrip("/")
+        size = os.path.getsize(path)
+        with open(path, "rb") as fh:
+            r = requests.post(f"https://rupload.facebook.com/ig-api-upload/v21.0/{c['id']}",
+                              headers={"Authorization": f"OAuth {TOKEN}", "offset": "0",
+                                       "file_size": str(size)}, data=fh, timeout=600)
+        if r.status_code >= 400 or not r.json().get("success", False):
+            raise RuntimeError("rupload: " + r.text[:300])
     elif kind == "story":
         c = call("POST", f"{IG_ID}/media", media_type="STORIES", image_url=url(it["images"][0]))
     else:
