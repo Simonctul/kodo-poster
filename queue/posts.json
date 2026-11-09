@@ -61,5 +61,19 @@
     "status": "published-manually",
     "attempts": 0,
     "error": "{\"message\": \"Fatal\", \"type\": \"OAuthException\", \"code\": -1, \"error_subcode\": 2207085, \"is_transient\": false, \"error_user_title\": \"Общая внутренняя ошибка\", \"error_user_msg\": \"Произошла внутренняя ошибка сервера. Повторите попытку позже.\", \"fbtrace_id\": \"ANLwQJ7HLy7-xZWbS5BVgNm\"}"
+  },
+  {
+    "id": "checklist-carousel",
+    "type": "carousel",
+    "when": "2026-11-11T19:00:00+03:00",
+    "approved": false,
+    "status": "scheduled",
+    "images": [
+      "media/checklist_1.jpg",
+      "media/checklist_2.jpg",
+      "media/checklist_3.jpg",
+      "media/checklist_4.jpg"
+    ],
+    "caption": "Что подготовить для заказа сайта? 📝\n\nСоберите это заранее, и сайт сделаем быстрее и лучше: чем вы занимаетесь, услуги и цены, фото, логотип, контакты и пара примеров сайтов, которые вам нравятся.\n\nЧего-то нет? Не страшно, подскажу и помогу собрать. Напишите в Telegram: t.me/S_1_mon\n\n#сайтназаказ #созданиесайтов #сайтдлябизнеса #вебдизайн #чеклист #заказатьсайт #лендинг #сочи"
   }
 ]
