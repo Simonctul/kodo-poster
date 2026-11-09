@@ -40,8 +40,8 @@
   {
     "id": "site-vs-bot-carousel",
     "type": "carousel",
-    "when": "2026-10-31T12:00:00+03:00",
-    "approved": false,
+    "when": "2026-11-09T19:00:00+03:00",
+    "approved": true,
     "status": "scheduled",
     "images": [
       "media/botvssite_1.jpg",
