@@ -68,7 +68,7 @@
     "id": "checklist-carousel",
     "type": "carousel",
     "when": "2026-11-11T19:00:00+03:00",
-    "approved": false,
+    "approved": true,
     "status": "scheduled",
     "images": [
       "media/checklist_1.jpg",
